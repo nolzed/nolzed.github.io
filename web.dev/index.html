@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!--REVEALATOR-->
+    <link rel="stylesheet" href="../web.dev/assets/revealator/fm.revealator.jquery.css">
+    <script src="../web.dev/assets/revealator/jquery-1.11.3.min.js"></script>
+    <script src="../web.dev/assets/revealator/fm.revealator.jquery.js"></script>
+    <!--Icon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
+    <link rel="manifest" href="assets/icon/site.webmanifest">
+    <link rel="mask-icon" href="assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <button class="top__nav" data-scroll="#home"></button>
+    <header class="header revealator-load revealator-slidedown">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo" data-scroll="#home"><img src="assets/images/logo.png" alt=""></div>
+                <nav class="nav" id="nav">
+                    <a href="#" class="nav__link" data-scroll="#home">Home</a>
+                    <a href="#" class="nav__link" data-scroll="#about">About</a>
+                    <a href="#" class="nav__link" data-scroll="#services">Servicing</a>
+                    <a href="#" class="nav__link" data-scroll="#work">Portfolio</a>
+                    <a href="#" class="nav__link" data-scroll="#blog">Blog</a>
+                    <a href="#" class="nav__link" data-scroll="#contact">Contact us</a>
+                    <a href="#" class="nav__link"><i class="fas fa-search"></i></a>
+                </nav>
+                <button class="nav__toggle" id="nav__toggle">
+                    <div class="toggle"></div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="intro " id="home">
+        <div class="container">
+            <div class="intro__inner revealator-load revealator-slidedown">
+                <h1 class="intro__title">Web development project</h1>
+                <h3 class="intro__subtitle">Very suitable to support all web development projects</h3>
+                <div class="intro__buttons">
+                    <button class="intro__btn">Our services</button>
+                    <button class="intro__btn">Here is now</button>
+                </div>
+                <button class="intro__next--btn" data-scroll="#about"></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__main main revealator-zoomin revealator-once">
+                <h1 class="about__main--title main__title">About Us</h1>
+                <h3 class="about__main--subtitle main__subtitle">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    <p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </h3>
+            </div>
+            <div class="about__inner">
+
+                <div class="about__card revealator-slideup revealator-once ">
+                    <div class="about__card--img"><img src="assets/images/about/1.png" alt=""></div>
+                    <div class="about__card--title">Awesome Icons</div>
+                    <div class="about__card--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</div>
+                </div>
+                <div class="about__card revealator-slideup revealator-once revealator-delay1 ">
+                    <div class="about__card--img"><img src="assets/images/about/2.png" alt=""></div>
+                    <div class="about__card--title">One Page</div>
+                    <div class="about__card--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</div>
+                </div>
+                <div class="about__card revealator-slideup revealator-once revealator-delay2 ">
+                    <div class="about__card--img"><img src="assets/images/about/3.png" alt=""></div>
+                    <div class="about__card--title">Fully Responsive</div>
+                    <div class="about__card--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="services__main main revealator-zoomin revealator-once">
+                <h1 class="services__main--title main__title">Our Services</h1>
+                <h3 class="servicest__main--subtitle main__subtitle">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    <p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </h3>
+            </div>
+            <div class="services__inner">
+
+                <div class="services__card revealator-slideup revealator-once">
+                    <div class="services__card--img"><img src="assets/images/services/black.png" alt=""></div>
+                    <div class="services__card--title">Research</div>
+                    <div class="services__card--text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</div>
+                    <button class="services__card--button">Read more</button>
+                </div>
+                <div class="services__card revealator-slideup revealator-once revealator-delay1">
+                    <div class="services__card--img"><img src="assets/images/services/black.png" alt=""></div>
+                    <div class="services__card--title">Research</div>
+                    <div class="services__card--text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</div>
+                    <button class="services__card--button">Read more</button>
+                </div>
+                <div class="services__card revealator-slideup revealator-once revealator-delay2">
+                    <div class="services__card--img"><img src="assets/images/services/black.png" alt=""></div>
+                    <div class="services__card--title">Research</div>
+                    <div class="services__card--text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</div>
+                    <button class="services__card--button">Read more</button>
+                </div>
+                <div class="services__card revealator-slideup revealator-once">
+                    <div class="services__card--img"><img src="assets/images/services/black.png" alt=""></div>
+                    <div class="services__card--title">Research</div>
+                    <div class="services__card--text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</div>
+                    <button class="services__card--button">Read more</button>
+                </div>
+                <div class="services__card revealator-slideup revealator-once revealator-delay1">
+                    <div class="services__card--img"><img src="assets/images/services/black.png" alt=""></div>
+                    <div class="services__card--title">Research</div>
+                    <div class="services__card--text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</div>
+                    <button class="services__card--button">Read more</button>
+                </div>
+                <div class="services__card revealator-slideup revealator-once revealator-delay2">
+                    <div class="services__card--img"><img src="assets/images/services/black.png" alt=""></div>
+                    <div class="services__card--title">Research</div>
+                    <div class="services__card--text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</div>
+                    <button class="services__card--button">Read more</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--WORKS-->
+    <section class="works" id="work">
+        <div class="container">
+
+            <div class="works__main main revealator-zoomin revealator-once">
+                <h1 class="works__main--title main__title">Latest Works</h1>
+                <h3 class="works__main--subtitle main__subtitle">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    <p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </h3>
+            </div>
+
+            <div class="works__nav ">
+                <button class="works__nav--btn">All</button>
+                <button class="works__nav--btn">Web design</button>
+                <button class="works__nav--btn">Ui/Ux Design</button>
+                <button class="works__nav--btn">Mockups</button>
+            </div>
+
+            <div class="works__inner">
+
+                <div class="works__card">
+                    <div class="works__card--inner  revealator-zoomin revealator-once">
+                        <div class="works__card--img"><img src="assets/images/works/1.jpg" alt=""></div>
+                        <div class="works__card--content">
+                            <div class="works__card--name">Item</div>
+                            <div class="works__card--text">Web Design</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__card">
+                    <div class="works__card--inner revealator-zoomin revealator-once revealator-delay1">
+                        <div class="works__card--img"><img src="assets/images/works/2.jpg" alt=""></div>
+                        <div class="works__card--content">
+                            <div class="works__card--name">Item</div>
+                            <div class="works__card--text">Web Design</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__card">
+                    <div class="works__card--inner revealator-zoomin revealator-once revealator-delay2">
+                        <div class="works__card--img"><img src="assets/images/works/3.jpg" alt=""></div>
+                        <div class="works__card--content">
+                            <div class="works__card--name">Item</div>
+                            <div class="works__card--text">Web Design</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__card">
+                    <div class="works__card--inner revealator-zoomin revealator-once">
+                        <div class="works__card--img"><img src="assets/images/works/4.jpg" alt=""></div>
+                        <div class="works__card--content">
+                            <div class="works__card--name">Item</div>
+                            <div class="works__card--text">Web Design</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__card">
+                    <div class="works__card--inner revealator-zoomin revealator-once revealator-delay1">
+                        <div class="works__card--img"><img src="assets/images/works/5.jpg" alt=""></div>
+                        <div class="works__card--content">
+                            <div class="works__card--name">Item</div>
+                            <div class="works__card--text">Web Design</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__card">
+                    <div class="works__card--inner revealator-zoomin revealator-once revealator-delay2">
+                        <div class="works__card--img"><img src="assets/images/works/6.jpg" alt=""></div>
+                        <div class="works__card--content">
+                            <div class="works__card--name">Item</div>
+                            <div class="works__card--text">Web Design</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--.works__inner-->
+            <button class="works__btn">View all</button>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+
+            <div class="pricing__main main revealator-zoomin revealator-once">
+                <h1 class="pricing__main--title main__title">Pricing Plan</h1>
+                <h3 class="pricing__main--subtitle main__subtitle">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    <p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </h3>
+            </div>
+
+            <div class="pricing__inner">
+
+                <div class="pricing__card">
+                    <div class="pricing__card--inner revealator-slidedown revealator-once">
+                        <div class="pricing__top">
+                            <div class="pt__name">Free Trail</div>
+                            <div class="pt__price"><sup>$</sup><span>00</span>per month</div>
+                        </div>
+                        <ul class="pricing__bottom">
+                            <li class="pb__line">30 Free Trail</li>
+                            <li class="pb__line">5 Free Projects</li>
+                            <li class="pb__line">PHP 5 Enabled</li>
+                            <li class="pb__line">24/7 Suports</li>
+                        </ul>
+                        <button class="pricing__btn">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="pricing__card">
+                    <div class="pricing__card--inner revealator-slidedown revealator-once revealator-delay1">
+                        <div class="pricing__top">
+                            <div class="pt__name">Basic</div>
+                            <div class="pt__price"><sup>$</sup><span>50</span>per month</div>
+                        </div>
+                        <ul class="pricing__bottom">
+                            <li class="pb__line">30 Free Trail</li>
+                            <li class="pb__line">5 Free Projects</li>
+                            <li class="pb__line">PHP 5 Enabled</li>
+                            <li class="pb__line">24/7 Suports</li>
+                        </ul>
+                        <button class="pricing__btn">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="pricing__card">
+                    <div class="pricing__card--inner revealator-slidedown revealator-once revealator-delay2">
+                        <div class="pricing__top">
+                            <div class="pt__name">Ultimates</div>
+                            <div class="pt__price"><sup>$</sup><span>99</span>per month</div>
+                        </div>
+                        <ul class="pricing__bottom">
+                            <li class="pb__line">30 Free Trail</li>
+                            <li class="pb__line">5 Free Projects</li>
+                            <li class="pb__line">PHP 5 Enabled</li>
+                            <li class="pb__line">24/7 Suports</li>
+                        </ul>
+                        <button class="pricing__btn">Order Now</button>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="team">
+        <div class="container">
+
+            <div class="team__main main revealator-zoomin revealator-once">
+                <h1 class="team__main--title main__title">Our Team Member</h1>
+                <h3 class="team__main--subtitle main__subtitle">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    <p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </h3>
+            </div>
+
+            <div class="team__slider">
+
+                <div class="slider__item">
+                    <div class="slider__block">
+                        <div class="slider__img"><img src="assets/images/team/1.jpg" alt=""></div>
+                        <div class="slider__name">John Doe</div>
+                        <div class="slider__prof">General Manager</div>
+                        <nav class="slider__social">
+                            <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="slider__link"><i class="fas fa-comments"></i></a>
+                            <a href="#" class="slider__link"><i class="fab fa-vk"></i></a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__block">
+                        <div class="slider__img"><img src="assets/images/team/2.jpg" alt=""></div>
+                        <div class="slider__name">John Doe</div>
+                        <div class="slider__prof">General Manager</div>
+                        <nav class="slider__social">
+                            <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="slider__link"><i class="fas fa-comments"></i></a>
+                            <a href="#" class="slider__link"><i class="fab fa-vk"></i></a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__block">
+                        <div class="slider__img"><img src="assets/images/team/3.jpg" alt=""></div>
+                        <div class="slider__name">John Doe</div>
+                        <div class="slider__prof">General Manager</div>
+                        <nav class="slider__social">
+                            <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="slider__link"><i class="fas fa-comments"></i></a>
+                            <a href="#" class="slider__link"><i class="fab fa-vk"></i></a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__block">
+                        <div class="slider__img"><img src="assets/images/team/2.jpg" alt=""></div>
+                        <div class="slider__name">John Doe</div>
+                        <div class="slider__prof">General Manager</div>
+                        <nav class="slider__social">
+                            <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="slider__link"><i class="fas fa-comments"></i></a>
+                            <a href="#" class="slider__link"><i class="fab fa-vk"></i></a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__block">
+                        <div class="slider__img"><img src="assets/images/team/1.jpg" alt=""></div>
+                        <div class="slider__name">John Doe</div>
+                        <div class="slider__prof">General Manager</div>
+                        <nav class="slider__social">
+                            <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="slider__link"><i class="fas fa-comments"></i></a>
+                            <a href="#" class="slider__link"><i class="fab fa-vk"></i></a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__block">
+                        <div class="slider__img"><img src="assets/images/team/3.jpg" alt=""></div>
+                        <div class="slider__name">John Doe</div>
+                        <div class="slider__prof">General Manager</div>
+                        <nav class="slider__social">
+                            <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="slider__link"><i class="fas fa-comments"></i></a>
+                            <a href="#" class="slider__link"><i class="fab fa-vk"></i></a>
+                        </nav>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="blog" id="blog">
+        <div class="container">
+
+            <div class="blog__main main revealator-zoomin revealator-once">
+                <h1 class="blog__main--title main__title">Blog</h1>
+                <h3 class="blog__main--subtitle main__subtitle">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    <p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </h3>
+            </div>
+
+            <div class="blog__inner">
+
+                <div class="blog__item revealator-slidedown revealator-once">
+                    <div class="blog__img"><img src="assets/images/blog/1.jpg" alt=""></div>
+                    <div class="blog__content bc__right">
+                        <a href="#" class="blog__title">SEO Quis Vestibulum</a>
+                        <div class="blog__parametrs">
+                            <div class="parametrs__item"><i class="far fa-calendar-alt"></i>14.07.2017</div>
+                            <div class="parametrs__item"><i class="far fa-file"></i>Development</div>
+                        </div>
+                        <div class="blog__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</div>
+                    </div>
+                </div>
+
+                <div class="blog__item revealator-slidedown revealator-once">
+                    <div class="blog__content">
+                        <a href="#" class="blog__title">SEO Quis Vestibulum</a>
+                        <div class="blog__parametrs">
+                            <div class="parametrs__item"><i class="far fa-calendar-alt"></i>14.07.2017</div>
+                            <div class="parametrs__item"><i class="far fa-file"></i>Development</div>
+                        </div>
+                        <div class="blog__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</div>
+                    </div>
+                    <div class="blog__img"><img src="assets/images/blog/2.jpg" alt=""></div>
+                </div>
+
+                <div class="blog__item revealator-slidedown revealator-once">
+                    <div class="blog__img"><img src="assets/images/blog/3.jpg" alt=""></div>
+                    <div class="blog__content bc__right">
+                        <a href="#" class="blog__title">SEO Quis Vestibulum</a>
+                        <div class="blog__parametrs">
+                            <div class="parametrs__item"><i class="far fa-calendar-alt"></i>14.07.2017</div>
+                            <div class="parametrs__item"><i class="far fa-file"></i>Development</div>
+                        </div>
+                        <div class="blog__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <button class="blog__btn">More view</button>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+
+            <div class="contact__main main revealator-zoomin revealator-once">
+                <h1 class="contact__main--title main__title">Contact Us</h1>
+                <h3 class="contact__main--subtitle main__subtitle">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    <p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </h3>
+            </div>
+
+            <div class="address__inner  revealator-slideup revealator-once">
+
+                <div class="address__item">
+                    <div class="address__content">
+                        <div class="address__img"><img src="assets/images/contact/1.jpg" alt=""></div>
+                        <address class="address">Nobinagar savar,Dhaka Bangladesh</address>
+                    </div>
+                </div>
+
+                <div class="address__item">
+                    <div class="address__content">
+                        <div class="address__img"><img src="assets/images/contact/2.jpg" alt=""></div>
+                        <address class="address">+8801743331996<br>+8801928737807</address>
+                    </div>
+                </div>
+
+                <div class="address__item">
+                    <div class="address__content">
+                        <div class="address__img"><img src="assets/images/contact/3.jpg" alt=""></div>
+                        <address class="address">quickmasud@gmail.com<br>quickmasud@yahoo.com</address>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="contact__form">
+                <form action="#" class="form__inner">
+                    <input type="text" name="name" placeholder="Your NAME" class="form__input">
+                    <input type="email" name="email" placeholder="Your Email" class="form__input">
+                    <textarea name="message" id="msg" cols="30" rows="10" placeholder="Write Massage" class="form__textarea"></textarea>
+                    <input type="submit" value="Send" class="form__send">
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="copyright">All rights Reserved © 2020 Danil Bolotin ◙</div>
+    </footer>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        Revealator.effects_padding = '-200';
+
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+
+</html>
